@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<h1>Snacks</h1>
+
+    {% for snack in snacks %}
+          <img src="{{ snack.image_url }}" alt=""/>
+            <h5>{{ snack.title }}</h5>
+            <p>{{ thing.description }}</p>
+            <a href="{{ snack.reference_url }}">
+              Wikipedia
+            </a>
+    {% endfor %}
+
+{% endblock content %}

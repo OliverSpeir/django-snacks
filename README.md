@@ -1,8 +1,8 @@
-# LAB - Class Number
+# LAB - Class Number 26
 
-## Project: Lab Name
+## Project: Django Snacks
 
-### Author: Your Name
+### Author: Oliver Speir
 
 ### Description
 
