@@ -7,9 +7,10 @@
 ### Description
 
 ### Setup
-
+- create venv and activate it
 - `pip install -r requirements.txt`
-- run : `python sample.py`
-- test: `pytest test_sample.py`
+- run : `python manage.py runserver`
+- test: `python manage.py test`
 
 ### Resources
+- in class lecture
